@@ -8,11 +8,14 @@ Step 2: Use an Ethernet cable (RJ45) to connect the LAN (Local Area Network) por
         The router has many functions:
           - DNS (Domain Name System) which converts a domain's IP address into a readable name for the end user (e.g., converting 8.8.8.8 into google.com)
           - DHCP (Dynamic Host Configuration Protocol) which dynamically assigns an IP address to an device on your network.
-          - NAT (Network Address Translator) which translates your private IP address into 
-          - Switch
-          - Firewall
+          - NAT (Network Address Translator) which translates your private IP address into a public address to provide Internet access to local hosts.
+          - Switch Allows LAN, WAN and Ethernet ports to communicate
+          - Firewall, which protects your network from any unknown and unwanted access, can be refined using an ACL (Access Control List)
           - WAP (Wireless Access Point) which is your WiFi connection. 
     
+Router acts as a switch through LAN ports 
+
+Allows firewall to automatically change settings to open and close ports, diminishing the security. 
 
 Use another Ethernet cable to connect your computer/laptop to one of the LAN ports on the router.
 The LAN ports (Local Area Network) are used to distribute the internet connection to wired devices within the network.
